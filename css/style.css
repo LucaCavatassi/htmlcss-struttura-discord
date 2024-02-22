@@ -8,6 +8,12 @@
 .contained{
     width: 60%;
 }
+
+/* COMMON */
+.dashed{
+    border: 2px dashed black;
+}
+
 /* HEADER */
 header{
     height: 70px;
@@ -24,7 +30,6 @@ header{
 }
 
 .navbar > div {
-    border: 2px dashed black;
     padding: 5px;
 }
 
@@ -45,3 +50,46 @@ header{
 /* MAIN */
 
 /* LANDING */
+
+.landing{
+    background-color: blue;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.landing-menu{
+    height: 70%;
+    width: 50%;
+    background-color: hotpink;
+}
+
+/* PAGES */
+
+.page{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bgrey{
+    background-color: lightgray;
+}
+
+.artwork{
+    background-color: cornflowerblue;
+    height: 70%;
+    width: 60%;
+}
+
+.infotext{
+    height: 70%;
+    width: 40%;
+    background-color: lightpink;
+}
+
+.reverse{
+    flex-direction: row-reverse;
+}
