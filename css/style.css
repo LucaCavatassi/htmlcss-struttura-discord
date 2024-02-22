@@ -93,3 +93,57 @@ header{
 .reverse{
     flex-direction: row-reverse;
 }
+
+/* COPY */
+
+.bigpage{
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copy{
+    height: 85%;
+    background-color: green;
+}
+
+/* FOOTER */
+.footer{
+    background-color: darkslategray;
+    height: 550px;
+}
+
+/* FOOTER_1 */
+.footer_1{
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid white;
+}
+
+.about{
+    background-color: lightseagreen;
+    height: 400px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    display: flex;
+}
+
+.social{
+    width: 30%;
+    height: 100%;
+    background-color: deeppink;
+}
+
+.faq{
+    width: 70%;
+    display: flex;
+}
+
+.faqlinks{
+    width: calc(100% / 4);
+}
+.faq .faqlinks{
+    border: 1px dashed white;
+}
+
