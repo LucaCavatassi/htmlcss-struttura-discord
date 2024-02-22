@@ -4,3 +4,44 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.contained{
+    width: 60%;
+}
+/* HEADER */
+header{
+    height: 70px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+     
+}
+
+.navbar{
+    display: flex;
+    background-color: orange;
+}
+
+.navbar > div {
+    border: 2px dashed black;
+    padding: 5px;
+}
+
+.logo , .login{
+    width: 25%;
+    
+}
+
+.header-links{
+    width: 50%;
+    text-align: center;
+}
+
+.login{
+    text-align: right;
+}
+
+/* MAIN */
+
+/* LANDING */
